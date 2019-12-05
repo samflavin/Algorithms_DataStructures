@@ -1,7 +1,7 @@
 # Algorithms_DataStructures
-Some snippets from a course  I am taking on Algorithms and Data Structures
+#Some snippets from a course  I am taking on Algorithms and Data Structures
 
-//Distance between two points
+#//Distance between two points
 class Point {
     constructor(x, y){
         this.x = x;
@@ -20,7 +20,7 @@ const p1 = new Point(5, 5);
 const p2 = new Point(10, 10);
 
 
-// Singly Linked list with pop, push, and shift.
+#// Singly Linked list with pop, push, and shift.
 
 class Node{
     constructor(val){
