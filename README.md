@@ -2,6 +2,7 @@
 #Some snippets from a course  I am taking on Algorithms and Data Structures
 
 #//Distance between two points
+
 class Point {
     constructor(x, y){
         this.x = x;
@@ -47,13 +48,13 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
-//     traverse(){
-//         var current = this.head;
-//         while(current){
-//         console.log(current.val)
-//         current = current.next
-//         } 
-//     }
+    traverse(){
+         var current = this.head;
+         while(current){
+         console.log(current.val)
+         current = current.next
+         } 
+     }
     pop(){
         if(!this.head) return undefined;
         var current = this.head;
